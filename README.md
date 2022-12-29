@@ -1,19 +1,11 @@
 # 编写智能合约
 
+## 参考
+
+http://www.17bigdata.com/study/programming/solidity/solidity-index.html
+
 ## solidity 开发环境搭建
 
-1. 安装 [solc](https://www.npmjs.com/package/solc)
+1. 安装 [remix 编辑器](https://github.com/ethereum/remix-desktop/releases)
 
-```shell
-npm install -g solc
-```
-
-查看安装的版本
-
-```shell
-solcjs --version
-```
-
-2. 安装 Ganache
-
-在 [官网](https://trufflesuite.com/ganache/) 安装
+## 

@@ -1,14 +1,14 @@
-pragma solidity ^0.8.11;
+pragma solidity >=0.7.0 <0.9.0;
 
-contract helloWorld {
-  function render() public {
-    return 'hello world'
-  }
+contract Storage {
+
+    uint256 number;
+
+    function store(uint256 num) public {
+        number = num;
+    }
+
+    function retrieve() public view returns (uint256){
+        return number;
+    }
 }
-
-// contract helloWorld {
-//   function renderHelloWorld() returns (string) {
-//     return 'helloWorld';
-//   };
-// }
-
