@@ -16,7 +16,7 @@ npm install -g solc
 
 写一条合约文件
 
-```js
+```sol
 pragma solidity >=0.7.0 <0.9.0;
 
 contract Hello {
