@@ -1,23 +1,16 @@
 # 编写智能合约
 
-## 参考
-
-http://www.17bigdata.com/study/programming/solidity/solidity-index.html
-
 ## 什么是智能合约
 
 是一种在以信息化方式传播、验证或执行合同的计算机协议，简单说就是在区块链上运行的程序
 
 ## solidity 开发环境搭建
 
-1. 安装 node
-2. 安装编译器 solc
+安装编译器 solc
 
 ```shell
 npm install -g solc
 ```
-
-安装 [remix 编辑器](https://github.com/ethereum/remix-desktop/releases)
 
 ## 编译合约
 
@@ -38,3 +31,21 @@ contract Hello {
     }
 }
 ```
+
+运行以下命令行，编译 hello.sol 合约并得到编译字节码结果
+
+```shell
+solcjs --bin hello.sol
+```
+
+如果编译通过，此目录会得到包含字节码的结果文件 hello_sol_Hello.bin，如果编译失败则提示错误信息。 运行以下命令行，编译 hello.sol 合约并得得到合约接口说明（ABI）：
+
+```shell
+solcjs --abi hello.sol
+```
+
+## 安装编辑器
+
+安装 [remix 编辑器](https://github.com/ethereum/remix-desktop/releases)
+
+## Solidity 语法
