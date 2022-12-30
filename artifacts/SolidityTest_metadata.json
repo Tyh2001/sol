@@ -7,28 +7,15 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "retrieve",
+				"name": "helloWorld",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "num",
-						"type": "uint256"
-					}
-				],
-				"name": "store",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"1.sol": "Storage"
+			"3.sol": "SolidityTest"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,11 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"1.sol": {
-			"keccak256": "0x5640c3236b721c7951a23079a20ae14aca72f3a89ce1a833c07beba05aee04b5",
+		"3.sol": {
+			"keccak256": "0x09ae447b90393e06da272b3bccc166b5dd9f7273075d4e03d841dd14a7cf3932",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://34a1d43cdd6e95712f066f8368b0f6173d8c150fb3146cbcbfcd11984a720b00",
-				"dweb:/ipfs/QmYLNNdLLUdwusBZK2FYgAdxDMGye4FajCRMeno3oSk5oM"
+				"bzz-raw://831f44490b36e64776e64a24781469ff3136e317a301451eb9404e521dc29a2b",
+				"dweb:/ipfs/QmX6RWngezrowcvRDDLXpKKEMBY3qBXJCMtWyzUAdtJ4ra"
 			]
 		}
 	},
