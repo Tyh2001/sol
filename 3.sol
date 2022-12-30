@@ -3,6 +3,6 @@ pragma solidity >=0.7.0 <0.9.0;
 
 contract SolidityTest{
     function helloWorld() public pure returns(string memory) {
-        return "Hello World";
+        return "Hello World good";
     }
 }
